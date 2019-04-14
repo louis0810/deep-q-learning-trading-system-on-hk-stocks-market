@@ -1,9 +1,9 @@
 import random
 
-import keras
+from tensorflow import keras
 import numpy as np
 import tensorflow as tf  # Deep Learning library
-from keras import backend as keras_backend
+from tensorflow.keras import backend as keras_backend
 from sklearn.preprocessing import OneHotEncoder
 
 from prioritized_exp_replay import Memory
